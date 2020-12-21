@@ -54,7 +54,7 @@ const promptUser = () => {
 const promptProject = portfolioData => {
   console.log(portfolioData);
   //if there's no 'projects' array property, create one
-  if (portfolioData.project === undefined) {
+  if (portfolioData.projects === undefined) {
     portfolioData.projects = [];
   }
   console.log(`
